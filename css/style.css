@@ -18,7 +18,7 @@ p, span, h1, h2, h3 {
 }
 
 body {
-	background: #222222;
+	background: #121417;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	color: #b8b8b8;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .wrapper {
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5 {
 	padding: 20px 25px;
 	width: 20%;
 	height: 600px;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(11, 22, 32, 0.88);
 	text-align: center;
 }
 
@@ -100,24 +100,33 @@ h1, h2, h3, h4, h5 {
 .wrapper .images .img img {
 	display: block;
 	width: 100%;
+	
 }
 
 .wrapper .images .img div {
 	width: 100%;
-	display: block;
+	height: 100%;
+	display: none;
 	position: absolute;
 	top: 0;
-	padding-top: 33%;
+	padding-top: 27%;
 	text-align: center;
-	background: #
+	background: rgba(11, 22, 32, 0.6);
+	color: #dddddd;
 }
 
 .wrapper .images .img div p:nth-child(1) {
-
+	padding: 0 0 10px 0;
 }
 
-/*.wrapper .images .img:hover div {
+.wrapper .images .img div p:nth-child(2) {
+	font-weight: 300;
+	border-top: 1px #e1e1df solid;
+	display: inline-block;
+	padding: 10px 0 0 0;
+}
+
+.wrapper .images .img:hover div {
 	display: block;
-	position: absolute;
-
 }
+
